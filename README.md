@@ -6,7 +6,7 @@ An iOS demo app for calculating tip amount, with percentages, on bill amount and
 
 **Tasks:**
 - User should be able to input bill amount and select tip percentage (10%, 15%, 20%) for the total bill to pay.
-- User should be able to set tip percentage in settings view.
+- User should be able to set default tip percentage in settings view.
 
 **Notes:**
 Spent time in understanding & played with general settings for the app. 
