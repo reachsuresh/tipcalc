@@ -19,6 +19,10 @@
 		3A2777531A71857700C796A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A27773B1A71857700C796A5 /* UIKit.framework */; };
 		3A27775B1A71857700C796A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A2777591A71857700C796A5 /* InfoPlist.strings */; };
 		3A27775D1A71857700C796A5 /* tipitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A27775C1A71857700C796A5 /* tipitTests.m */; };
+		3A2777691A71862A00C796A5 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2777671A71862A00C796A5 /* TipViewController.m */; };
+		3A27776A1A71862A00C796A5 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2777681A71862A00C796A5 /* TipViewController.xib */; };
+		3A27776E1A71AE5400C796A5 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A27776C1A71AE5400C796A5 /* SettingsViewController.m */; };
+		3A27776F1A71AE5400C796A5 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A27776D1A71AE5400C796A5 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		3A2777581A71857700C796A5 /* tipitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipitTests-Info.plist"; sourceTree = "<group>"; };
 		3A27775A1A71857700C796A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A27775C1A71857700C796A5 /* tipitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipitTests.m; sourceTree = "<group>"; };
+		3A2777661A71862A00C796A5 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		3A2777671A71862A00C796A5 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		3A2777681A71862A00C796A5 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		3A27776B1A71AE5400C796A5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3A27776C1A71AE5400C796A5 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3A27776D1A71AE5400C796A5 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				3A2777471A71857700C796A5 /* AppDelegate.m */,
 				3A2777491A71857700C796A5 /* Images.xcassets */,
 				3A27773E1A71857700C796A5 /* Supporting Files */,
+				3A2777661A71862A00C796A5 /* TipViewController.h */,
+				3A2777671A71862A00C796A5 /* TipViewController.m */,
+				3A2777681A71862A00C796A5 /* TipViewController.xib */,
+				3A27776B1A71AE5400C796A5 /* SettingsViewController.h */,
+				3A27776C1A71AE5400C796A5 /* SettingsViewController.m */,
+				3A27776D1A71AE5400C796A5 /* SettingsViewController.xib */,
 			);
 			path = tipit;
 			sourceTree = "<group>";
@@ -219,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A27776A1A71862A00C796A5 /* TipViewController.xib in Resources */,
 				3A2777421A71857700C796A5 /* InfoPlist.strings in Resources */,
 				3A27774A1A71857700C796A5 /* Images.xcassets in Resources */,
+				3A27776F1A71AE5400C796A5 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2777481A71857700C796A5 /* AppDelegate.m in Sources */,
+				3A2777691A71862A00C796A5 /* TipViewController.m in Sources */,
 				3A2777441A71857700C796A5 /* main.m in Sources */,
+				3A27776E1A71AE5400C796A5 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 				3A2777621A71857700C796A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A2777631A71857700C796A5 /* Build configuration list for PBXNativeTarget "tipitTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +466,7 @@
 				3A2777651A71857700C796A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
