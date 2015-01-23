@@ -16,5 +16,5 @@ Learnings:
 While development learned that properties associated for UI elements, which are created with xib will create new & have references for old when an existing property is updated which throwed an exception  
 
 Walkthrough of user stories:
-https://github.com/reachsuresh/tipcalc/blob/master/tipcalc.gif
+![](https://github.com/reachsuresh/tipcalc/blob/master/tipcalc.gif)
  
